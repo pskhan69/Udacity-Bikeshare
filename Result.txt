@@ -1,0 +1,80 @@
+PS C:\ML_PYTHON\Udacity> & C:/Users/User/AppData/Local/Microsoft/WindowsApps/python.exe c:/ML_PYTHON/Udacity/bikeshare.py
+Hello! Let's explore some US bikeshare data!
+Which city do you want to explore Chicago, New York City or Washington? 
+> chicago
+All right! now it's time to provide us a month name or just say 'all' to apply no month filter. 
+(e.g. all, january, february, march, april, may, june) 
+> march
+One last thing. Could you type one of the week day you want to analyze? You can type 'all' again to apply no day filter. 
+(e.g. all, monday, tuesday, ... sunday) 
+> monday
+----------------------------------------
+
+Calculating The Most Frequent Times of Travel...
+
+The most common month is : 3
+The most common day of week is : Monday
+The most common start hour is : 17
+
+This took 0.002009153366088867 seconds.
+----------------------------------------
+
+Calculating The Most Popular Stations and Trip...
+
+The most commonly used start station : Clinton St & Washington Blvd
+The most commonly used end station : Clinton St & Washington Blvd
+The most commonly used start station and end station : Clinton St & Washington Blvd, Clinton St & Washington Blvd
+
+This took 0.005984783172607422 seconds.
+----------------------------------------
+
+Calculating Trip Duration...
+
+Total travel time : 2875098
+Mean travel time : 672.2230535422025
+
+This took 0.0 seconds.
+----------------------------------------
+
+Calculating User Stats...
+
+Counts of user types:
+
+  Subscriber: 3991
+  Customer: 286
+
+Counts of gender:
+
+  Male: 3189
+  Female: 800
+
+
+Calculating User birth Stats...
+
+The most common birth year: 1989.0
+The most recent birth year: 2000.0
+The most earliest birth year: 1921.0
+
+This took 0.0009961128234863281 seconds.
+----------------------------------------
+
+Would you like to view 5 rows of individual trip data? Enter yes or no
+yes
+     Unnamed: 0          Start Time             End Time  Trip Duration                  Start Station                   End Station   User Type Gender  Birth Year  month day_of_week  hour
+3        304487 2017-03-06 13:49:38  2017-03-06 13:55:28            350  Christiana Ave & Lawrence Ave  St. Louis Ave & Balmoral Ave  Subscriber   Male      1986.0      3      Monday    13
+47       371076 2017-03-20 21:27:24  2017-03-20 21:39:02            698            Morgan St & Lake St          Larrabee St & Oak St  Subscriber   Male      1972.0      3      Monday    21
+177      409936 2017-03-27 18:35:10  2017-03-27 18:43:44            514       Racine Ave & Belmont Ave       Broadway & Waveland Ave  Subscriber   Male      1965.0      3      Monday    18
+184      301682 2017-03-06 07:11:33  2017-03-06 07:17:09            336        Western Ave & Howard St        Paulina St & Howard St  Subscriber   Male      1977.0      3      Monday     7
+278      407075 2017-03-27 12:05:52  2017-03-27 12:09:09            197   Clinton St & Washington Blvd       Franklin St & Monroe St  Subscriber   Male      1967.0      3      Monday    12
+Do you wish to continue?: yes
+     Unnamed: 0          Start Time             End Time  Trip Duration                   Start Station                End Station   User Type  Gender  Birth Year  month day_of_week  hour
+305      306624 2017-03-06 17:47:17  2017-03-06 18:03:08            951    Clinton St & Washington Blvd       Clinton St & 18th St  Subscriber    Male      1982.0      3      Monday    17
+342      303229 2017-03-06 09:11:15  2017-03-06 09:21:25            610           Canal St & Madison St  Columbus Dr & Randolph St  Subscriber    Male      1972.0      3      Monday     9
+590      305880 2017-03-06 17:05:46  2017-03-06 17:12:42            416  Southport Ave & Wellington Ave  Southport Ave & Roscoe St  Subscriber  Female      1962.0      3      Monday    17
+674      341481 2017-03-13 22:20:44  2017-03-13 22:26:43            359          St. Clair St & Erie St     Kingsbury St & Erie St  Subscriber    Male      1983.0      3      Monday    22
+720      369385 2017-03-20 17:25:10  2017-03-20 17:28:11            181        Kingsbury St & Kinzie St       Clinton St & Lake St  Subscriber    Male      1983.0      3      Monday    17
+Do you wish to continue?: no
+
+Would you like to restart? Enter yes or no.
+no
+PS C:\ML_PYTHON\Udacity> 

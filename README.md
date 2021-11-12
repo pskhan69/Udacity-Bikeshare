@@ -16,4 +16,4 @@ readme.txt
 
 
 ### Credits
-Credit goes to Udacity for such a nice course.
+Credit goes to Udacity for such a nice course.This is very useful course from professional point of view.
